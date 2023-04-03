@@ -1,3 +1,5 @@
+package Methods;
+
 public class Square3 {
     public static double printSquare(double x) {
         return x * x;

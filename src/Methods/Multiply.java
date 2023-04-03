@@ -1,3 +1,5 @@
+package Methods;
+
 public class Multiply {
     public static void times(double a, double b) {
         System.out.println(a * b);

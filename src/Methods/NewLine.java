@@ -1,3 +1,5 @@
+package Methods;
+
 public class NewLine {
     public static void newLine() {
         System.out.print("\n");

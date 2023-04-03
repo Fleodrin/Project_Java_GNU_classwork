@@ -1,3 +1,5 @@
+package Arrays;
+
 public class ArrayMaxNumber {
     public static void main(String[] args) {
         int[] values = {1, 120, 56, 78, 87};
