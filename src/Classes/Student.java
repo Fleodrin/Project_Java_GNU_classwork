@@ -2,13 +2,13 @@ package Classes;
 
 public class Student {
     String name;
-    int studentId;
+    boolean studentMale;
     String email;
     String phoneNumber;
 
-    Student(String name, int studentId) {
+    Student(String name, boolean studentId) {
         this.name = name;
-        this.studentId = studentId;
+        this.studentMale = false;
     }
 
     void printName() {
