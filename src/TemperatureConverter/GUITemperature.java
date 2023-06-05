@@ -30,6 +30,7 @@ public class GUITemperature extends JFrame {
         mainPanel.add(celsiusPanel);
         mainPanel.add(buttonPanel);
 
+        this.setTitle("MyFrame");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.getContentPane().setLayout(new BorderLayout());
         this.getContentPane().add(mainPanel, BorderLayout.CENTER);
