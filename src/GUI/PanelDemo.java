@@ -15,7 +15,9 @@ public class PanelDemo extends JFrame {
         Container cp = getContentPane();
         cp.add(p1, BorderLayout.NORTH);
         cp.add(p2, BorderLayout.CENTER);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         pack();
+        this.setVisible(true);
     }
 
     public static void main(String[] args) {
