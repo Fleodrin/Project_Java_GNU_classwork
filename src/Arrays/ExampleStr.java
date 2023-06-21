@@ -1,6 +1,6 @@
 package Arrays;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class ExampleStr {
     public static void main(String[] args) {

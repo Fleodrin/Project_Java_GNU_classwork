@@ -8,7 +8,6 @@ public class ArrayMaxNumber {
 
         while (i < values.length) {
             if (values[i] > max) max = values[i];
-
             i = i + 1;
         }
 

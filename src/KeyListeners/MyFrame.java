@@ -1,7 +1,6 @@
 package KeyListeners;
 
 import javax.swing.*;
-import java.awt.event.KeyListener;
 
 public class MyFrame extends JFrame {
     public MyFrame() {

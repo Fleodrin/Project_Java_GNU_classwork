@@ -1,6 +1,6 @@
 package Abstract;
 
-class Main {
+class TestAnimal {
     public static void main(String[] args) {
         Pig myPig = new Pig();
         myPig.animalSound();

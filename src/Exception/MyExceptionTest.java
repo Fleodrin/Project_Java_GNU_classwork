@@ -1,6 +1,6 @@
 package Exception;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class MyExceptionTest {
     public static void main(String[] args) {

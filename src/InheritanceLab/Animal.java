@@ -1,25 +1,22 @@
 package InheritanceLab;
 
+import java.util.ArrayList;
+
 public class Animal {
     public void bark() {
         System.out.println("Animal sound");
     }
 
     public static void main(String[] args) {
-        Animal[] animals = new Animal[4];
+        ArrayList<Animal> animals = new ArrayList<>();
 
-        Cow cow = new Cow();
-        Dog dog = new Dog();
-        Cat cat = new Cat();
-        Lion lion = new Lion();
+        animals.add(new Cow());
+        animals.add(new Dog());
+        animals.add(new Cat());
+        animals.add(new Lion());
 
-        animals[0] = cow;
-        animals[1] = dog;
-        animals[2] = cat;
-        animals[3] = lion;
-
-        for (int i = 0; i < animals.length; i++) {
-            animals[i].bark();
+        for (Animal animal : animals) {
+            animal.bark();
         }
     }
 }
